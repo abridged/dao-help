@@ -73,5 +73,5 @@ https://nodered.org/docs/user-guide/editor/workspace/import-export
 Update keyes into “Global Config” configuration nodes
 </b>
 
-
+Please find config screenshots here: https://github.com/abridged/dao-help/tree/master/images
 
