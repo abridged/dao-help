@@ -9,6 +9,7 @@ https://nodered.org/docs/getting-started/
 
 Airtable
 https://airtable.com/ (To-Do: Create Collab19 airtable templet and share link here)
+Copy this [table](https://airtable.com/invite/l?inviteId=invfw1mDN9Gm7qmO4&inviteToken=e2b07eee746127408d6dc64f6158dbdd78d3e195978d2a8d14779603222b5c42) to manage the database.
 
 Telegram Bot
 https://core.telegram.org/bots
