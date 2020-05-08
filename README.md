@@ -2,21 +2,23 @@
 
 Collab19: NodeRed based bot system
 
-Requirements includes:
+Spin up your own Aragon DAO system inside of telegram using Abridged account contracts and an Aragon DAO framework! See Collab19 here as an example of what to anticipate: https://t.me/collab19_bot
 
-Node-Red https://nodered.org/
+## Step 1: Download Node-Red (10 mins)
+
+Video of installing with AWS: https://www.youtube.com/watch?v=ZcubOa9xESA
+
 https://nodered.org/docs/getting-started/
 
-Airtable
-https://airtable.com/ (To-Do: Create Collab19 airtable templet and share link here)
-Copy this [table](https://airtable.com/invite/l?inviteId=invfw1mDN9Gm7qmO4&inviteToken=e2b07eee746127408d6dc64f6158dbdd78d3e195978d2a8d14779603222b5c42) to manage the database.
+https://nodered.org/docs/getting-started/local
 
-Telegram Bot
-https://core.telegram.org/bots
+https://nodered.org/
 
-AWS account
+## Step 2: Setup Collab19 Template (10 mins)
+Download Dependencies, Configure Global Parameters and Upload the Collab19 Template.
+Watch this short video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
 
-Once NodeRed is installed update package.json dependencies as
+Package.json dependencies to upload:
 
     "dependencies": {
       "@aws-crypto/client-node": "^1.0.4",
@@ -69,10 +71,16 @@ How to import flow into Node-Red
   
 https://nodered.org/docs/user-guide/editor/workspace/import-export
 
+## Step 3 Configure and Cusomize
+Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw86HGoM
 
-<B>
-Update keyes into “Global Config” configuration nodes
-</b>
+Airtable Database
+Collab19 uses airtable as a database to manage user access and associate their telegram IDs with their account contracts.
+Copy this [table](https://airtable.com/invite/l?inviteId=invfw1mDN9Gm7qmO4&inviteToken=e2b07eee746127408d6dc64f6158dbdd78d3e195978d2a8d14779603222b5c42) to manage the database.
 
+Telegram Bot
+Creating your own telegram bot is extremely easy, just find @BotFather and press start.
+https://core.telegram.org/bots
+
+Update keyes in “Global Config” configuration nodes
 Please find config screenshots here: https://github.com/abridged/dao-help/tree/master/images
-
