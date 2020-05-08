@@ -16,6 +16,7 @@ https://nodered.org/
 
 ## Step 2: Setup Collab19 Template (10 mins)
 Download Dependencies, Configure Global Parameters and Upload the Collab19 Template.
+
 Watch this short video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
 
 Package.json dependencies to upload:
