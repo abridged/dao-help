@@ -1,10 +1,10 @@
-## dao-help
+# dao-help
 
 Collab19: NodeRed based bot system
 
 Spin up your own Aragon DAO system inside of telegram using Abridged account contracts and an Aragon DAO framework! See Collab19 here as an example of what to anticipate: https://t.me/collab19_bot
 
-# Step 1: Download Node-Red (10 mins)
+## Step 1: Download Node-Red (10 mins)
 
 Video of installing with AWS: https://www.youtube.com/watch?v=ZcubOa9xESA
 
@@ -14,7 +14,7 @@ https://nodered.org/docs/getting-started/local
 
 https://nodered.org/
 
-# Step 2: Setup Collab19 Template (10 mins)
+## Step 2: Setup Collab19 Template (10 mins)
 Download Dependencies, Configure Global Parameters and Upload the Collab19 Template.
 Watch this short video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
 
