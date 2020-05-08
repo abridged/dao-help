@@ -71,14 +71,8 @@ How to import flow into Node-Red
   
 https://nodered.org/docs/user-guide/editor/workspace/import-export
 
-
-<B>
-Update keyes into “Global Config” configuration nodes
-</b>
-
-Please find config screenshots here: https://github.com/abridged/dao-help/tree/master/images
-
 ## Step 3 Configure and Cusomize
+Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw86HGoM
 
 Airtable Database
 Collab19 uses airtable as a database to manage user access and associate their telegram IDs with their account contracts.
@@ -88,3 +82,5 @@ Telegram Bot
 Creating your own telegram bot is extremely easy, just find @BotFather and press start.
 https://core.telegram.org/bots
 
+Update keyes in “Global Config” configuration nodes
+Please find config screenshots here: https://github.com/abridged/dao-help/tree/master/images
