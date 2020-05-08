@@ -66,18 +66,17 @@ Update functtionGlobalContext section in settings.js as
 
 Sample settings.js example (To-Do: Insert link here)
 
-<B>
 How to import flow into Node-Red
-<B>
-  
+
 https://nodered.org/docs/user-guide/editor/workspace/import-export
 
 ## Step 3 Configure and Cusomize
 
 Update keyes in “Global Config” Configuration Nodes
 
-Please find config screenshots here: https://github.com/abridged/dao-help/tree/master/images
 Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw86HGoM
+
+Please find config screenshots here: https://github.com/abridged/dao-help/tree/master/images
 
 Airtable Database
 
