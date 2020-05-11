@@ -38,6 +38,23 @@ Package.json dependencies to upload:
       "ws": "^7.2.3"
   }
   ```
+<B>
+Update functtionGlobalContext section in settings.js as 
+</B>
+
+```
+  functionGlobalContext: {
+    abridged: require("abridged"),
+    ethsdk: require("eth-sdk"),
+    fetch: require("node-fetch"),
+    ws: require("ws"),
+    ethers: require("ethers"),
+    telegraf: require("telegraf"),
+    telegram: require("telegraf/telegram"),
+    aws_client_node: require("@aws-crypto/client-node"),
+    AWS : require('aws-sdk'),
+  }
+```
   
 Sample settings.js example (To-Do: Insert link here)
 
