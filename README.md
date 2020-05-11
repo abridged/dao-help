@@ -55,8 +55,6 @@ Update functtionGlobalContext section in settings.js as
     AWS : require('aws-sdk'),
   }
 ```
-  
-Sample settings.js example (To-Do: Insert link here)
 
 How to import flow into Node-Red
 
