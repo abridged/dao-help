@@ -10,7 +10,7 @@ The Collab19 DAO template uses [Node-Red](https://nodered.org/), an open source 
 
 This project is built to run an [Aragon DAO](https://mainnet.aragon.org/) in telegram. You will need to spin one of those up to have the required links and contracts. We suggest using the Company Template to avoid unknown compatibility issues.
 
-You will also need an [Airtable](https://airtable.com/) account to manage the DAO userbase.
+You will also need an [Airtable](https://airtable.com/) account to manage the DAO userbase, and you will need to create a bot in [Telegram](https://core.telegram.org/bots).
 
 Last piece to note, the system uses Abridged account contracts to create an Ethereum account for new members. See the docs [here](https://abridged.gitbook.io/docs/) and find an interface for the SDK [here](https://preview.abridged.io/)
 
@@ -70,7 +70,7 @@ How to import flow into Node-Red
 
 https://nodered.org/docs/user-guide/editor/workspace/import-export
 
-## Step 3 Configure and Cusomize
+## Step 3: Configure and Cusomize
 
 Update keyes in “Global Config” Configuration Nodes
 
