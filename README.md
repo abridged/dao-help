@@ -21,38 +21,24 @@ Watch this short video for reference: https://www.youtube.com/watch?v=5vtwdUs7sP
 
 Package.json dependencies to upload:
 
+  ```
   "dependencies": {
-    "@aws-crypto/client-node": "^1.0.4",
-    "abridged": "^2.0.0-beta.2",
-    "aws-sdk": "^2.659.0",
-    "eth-sdk": "^0.2.8",
-    "ethers": "^4.0.46",
-    "node-fetch": "^2.6.0",
-    "node-red-contrib-chatbot": "~0.18.15",
-    "node-red-contrib-loop-processing": "^0.4.0",
-    "node-red-contrib-simple-message-queue": "^0.2.5",
-    "node-red-contrib-viseo-airtable": "github:alokt/node-red-contrib-airtable#master",
-    "node-red-node-twitter": "~1.1.6",
-    "telegraf": "^3.37.0",
-    "ws": "^7.2.3"
+      "@aws-crypto/client-node": "^1.0.4",
+      "abridged": "^2.0.0-beta.2",
+      "aws-sdk": "^2.659.0",
+      "eth-sdk": "^0.2.8",
+      "ethers": "^4.0.46",
+      "node-fetch": "^2.6.0",
+      "node-red-contrib-chatbot": "~0.18.15",
+      "node-red-contrib-loop-processing": "^0.4.0",
+      "node-red-contrib-simple-message-queue": "^0.2.5",
+      "node-red-contrib-viseo-airtable": "github:alokt/node-red-contrib-airtable#master",
+      "node-red-node-twitter": "~1.1.6",
+      "telegraf": "^3.37.0",
+      "ws": "^7.2.3"
   }
-
-<B>
-Update functtionGlobalContext section in settings.js as 
-</B>
+  ```
   
-  functionGlobalContext: {
-    abridged: require("abridged"),
-    ethsdk: require("eth-sdk"),
-    fetch: require("node-fetch"),
-    ws: require("ws"),
-    ethers: require("ethers"),
-    telegraf: require("telegraf"),
-    telegram: require("telegraf/telegram"),
-    aws_client_node: require("@aws-crypto/client-node"),
-    AWS : require('aws-sdk'),
-  }
-
 Sample settings.js example (To-Do: Insert link here)
 
 How to import flow into Node-Red
