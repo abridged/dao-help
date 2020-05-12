@@ -1,0 +1,32 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@aws-crypto/client-node": "^1.0.4",
+    "abridged": "^2.0.0-beta.2",
+    "aws-sdk": "^2.659.0",
+    "eth-sdk": "^0.2.8",
+    "ethers": "^4.0.46",
+    "node-fetch": "^2.6.0",
+    "node-red-contrib-chatbot": "~0.18.15",
+    "node-red-contrib-loop-processing": "^0.4.0",
+    "node-red-contrib-simple-message-queue": "^0.2.5",
+    "node-red-contrib-viseo-airtable": "github:alokt/node-red-contrib-airtable#master",
+    "node-red-node-twitter": "~1.1.6",
+    "telegraf": "^3.37.0",
+    "ws": "^7.2.3"
+},
+  "main": "settings.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
