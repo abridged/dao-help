@@ -16,13 +16,21 @@ Last piece to note, the system uses Abridged account contracts to create an Ethe
 
 ## Step 1: Download Node-Red (10 mins)
 
-We recommend you run an instance locally first. Find options in the link below.
+Make sure you are running a [supported version](https://nodered.org/docs/faq/node-versions) of node.js.
 
-https://nodered.org/docs/getting-started/local
+We recommend you run an instance locally first.
 
-Otherwise, feel free to reference this video of installing with AWS: <https://www.youtube.com/watch?v=ZcubOa9xESA>
+[For Mac](https://nodered.org/docs/getting-started/local):
+  ```
+  sudo npm install -g --unsafe-perm node-red
+  ```
+  
+[For Windows](https://nodered.org/docs/getting-started/windows):
+  ```
+  npm install -g --unsafe-perm node-red
+  ```
 
-Here is the general "Getting Started" link: https://nodered.org/docs/getting-started/
+Installing with AWS: <https://www.youtube.com/watch?v=ZcubOa9xESA>
 
 ## Step 2: Setup Collab19 Template (10 mins)
 Download Dependencies, Configure Global Parameters and Upload the Collab19 Template.
