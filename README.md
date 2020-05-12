@@ -37,6 +37,8 @@ Download Dependencies, Configure Global Parameters and Upload the Collab19 Templ
 
 Watch this short video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
 
+
+
 Package.json dependencies to upload:
 
   ```
