@@ -37,7 +37,14 @@ Download Dependencies, Configure Global Parameters and Upload the Collab19 Templ
 
 Watch this short video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
 
+2.2 ``` ~/.node-red```
+![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Open%20Node%20Red.png)
 
+2.3 Open the Package.json
+![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Edit%20Package.png)
+
+2.4 Copy and Paste Dependencies (Before and After)
+![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20Before.png)![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20After.png)
 
 Package.json dependencies to upload:
 
@@ -58,6 +65,10 @@ Package.json dependencies to upload:
       "ws": "^7.2.3"
   }
   ```
+
+2.5 ```NPM Install```
+![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Install%20Dependencies.png)
+
 <B>
 Update functtionGlobalContext section in settings.js as 
 </B>
