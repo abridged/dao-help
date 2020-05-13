@@ -1,22 +1,24 @@
 # dao-help
 
-Collab19: NodeRed based bot system
+Collab19: NodeRed based DAO Ops bot system.
 
 Spin up your own Aragon DAO system inside of telegram using Abridged account contracts and an Aragon DAO framework! See Collab19 here as an example of what to anticipate: <https://t.me/collab19_bot>
 
+The Collab19 DAO template uses [Node-Red](https://nodered.org/), an open source visual development environment. 
+
+Web3 components include [Aragon OS](https://aragon.org) for the decentralized organization and the Abridged SDK for the Ethereum account and transactions. See the docs [here](https://abridged.gitbook.io/docs/) and find an interface for the SDK [here](https://preview.abridged.io/)
+
 ## Pre-requisites
 
-The Collab19 DAO template uses [Node-Red](https://nodered.org/), an open source visual development environment.
+1. Make sure you are running a [supported version](https://nodered.org/docs/faq/node-versions) of node.js.
 
-This project is built to run an [Aragon DAO](https://mainnet.aragon.org/) in telegram. You will need to spin one of those up to have the required links and contracts. We suggest using the Company Template to avoid unknown compatibility issues.
+2. This project is built to run an Aragon DAO in telegram. **Spin one up using [this link]((https://mainnet.aragon.org/))**. Use the "Company Template" to avoid unknown compatibility issues.
 
-You will also need an [Airtable](https://airtable.com/) account to manage the DAO userbase, and you will need to create a bot in [Telegram](https://core.telegram.org/bots).
+3. You will need an [Airtable](https://airtable.com/) account to manage the DAO userbase, and you will need to create a bot in [Telegram](https://core.telegram.org/bots).
 
-Last piece to note, the system uses Abridged account contracts to create an Ethereum account for new members. See the docs [here](https://abridged.gitbook.io/docs/) and find an interface for the SDK [here](https://preview.abridged.io/)
+4. An [AWS account](https://aws.amazon.com/console/) is necessary to encrypt user private keys.
 
 ## Step 1: Download Node-Red (10 mins)
-
-Make sure you are running a [supported version](https://nodered.org/docs/faq/node-versions) of node.js.
 
 We recommend you run an instance locally first.
 
