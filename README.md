@@ -36,8 +36,10 @@ Installing with AWS: <https://www.youtube.com/watch?v=ZcubOa9xESA>
 
 ## Step 2: Download or Clone repo (2 mins)
 ```
-git clone git@github.com:abridged/dao-help.git
+git clone https://github.com/abridged/dao-help.git
+
 cd <cloned repo root folder path>
+
 npm install
 ```
 
