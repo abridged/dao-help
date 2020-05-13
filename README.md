@@ -38,7 +38,7 @@ Installing with AWS: <https://www.youtube.com/watch?v=ZcubOa9xESA>
 
 Watch this 7 min video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
 
-2.2 ``` ~/.node-red```
+2.2 ```cd ~/.node-red```
 ![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Open%20Node%20Red.png)
 
 2.3 Open the Package.json
@@ -77,8 +77,6 @@ After
 
 2.6 Update functionGlobalContext section in settings.js
 
-
-
 ```
   functionGlobalContext: {
     abridged: require("abridged"),
@@ -92,10 +90,21 @@ After
     AWS : require('aws-sdk'),
   }
 ```
+2.7 Input ```node-red``` to run Node-Red with all relevant settings and dependencies.
 
-How to import flow into Node-Red
+You can then access the Node-RED editor by pointing your browser at http://localhost:1880!
 
-https://nodered.org/docs/user-guide/editor/workspace/import-export
+2.8 Import flows
+
+Copy the code in the collab-19.json file in this repo.
+
+Go to the hamburger menu in the top right.
+
+Select import, paste the data, and click done.
+
+Deploy.
+
+For further assistance, see this guide: https://nodered.org/docs/user-guide/editor/workspace/import-export
 
 ## Step 3: Configure and Cusomize
 Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw86HGoM
