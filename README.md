@@ -64,17 +64,17 @@ See the tutorial videos at the end of each section!
 
 **Tutorial Videos**
 
-[2.5 min Collab19 Template Overview](https://www.youtube.com/watch?v=1MjoDXFa2mU)
+[Collab19 Template Overview](https://www.youtube.com/watch?v=1MjoDXFa2mU)(2.5 min)
 
-[1 min Airtable Config tutorial](https://www.youtube.com/watch?v=tCC9z3-ahxs)
+[Airtable Config tutorial](https://www.youtube.com/watch?v=tCC9z3-ahxs)(1 min)
 
-[30 s Telegram Config tutorial](https://www.youtube.com/watch?v=WEJpuqTbQRU)
+[Telegram Config tutorial](https://www.youtube.com/watch?v=WEJpuqTbQRU)(30 s)
 
-[3 min DAO Config tutorial](https://www.youtube.com/watch?v=bq8t62gyq2g)
+[DAO Config tutorial](https://www.youtube.com/watch?v=bq8t62gyq2g)(3 min)
 
-[3 min AWS Config Tutorial](https://www.youtube.com/watch?v=jNxuRF5Yc3g)
+[AWS Config Tutorial](https://www.youtube.com/watch?v=jNxuRF5Yc3g)(3 min)
 
-[Changing Copy in Node-Red](https://www.youtube.com/watch?v=FdgfPJDd0mE)
+[Changing Copy in Node-Red](https://www.youtube.com/watch?v=FdgfPJDd0mE)(1 min)
   
 ## Step 4: Stopping and Starting Node-Red
 To stop node-red press ctr+c
