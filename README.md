@@ -51,7 +51,7 @@ node-red  --userDir <cloned repo root folder path>
 Once running, go to: http://localhost:1880
 
 ## Step 3: Configure and Cusomize
-Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw86HGoM
+See the tutorial videos at the end of each section!
 
 **Update keyes in “Global Config” Configuration Nodes**
 
