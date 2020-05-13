@@ -57,7 +57,7 @@ Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw8
 
   * [Airtable API and App ID](https://airtable.com/invite/l?inviteId=invfw1mDN9Gm7qmO4&inviteToken=e2b07eee746127408d6dc64f6158dbdd78d3e195978d2a8d14779603222b5c42)- this is your database and user management system. [1 min tutorial](https://www.youtube.com/watch?v=tCC9z3-ahxs)
   * [Telegram Bot API](https://core.telegram.org/bots) - creating your own telegram bot is extremely easy, just find @BotFather and press start. [30 s tutorial](https://www.youtube.com/watch?v=WEJpuqTbQRU)
-  * DAO Configuration - you need the DAO URL, voting app contract, vault/agent contract, finance app contract, DAO token contract, and the PK of the token premined address. [3 min tutorial](https://www.youtube.com/watch?v=bq8t62gyq2g)
+  * [DAO Configuration](https://mainnet.aragon.org/#/) - you need the DAO URL, voting app contract, vault/agent contract, finance app contract, DAO token contract, and the PK of the token premined address. [3 min tutorial](https://www.youtube.com/watch?v=bq8t62gyq2g)
   * [AWS IAM](https://aws.amazon.com/iam/) - create a key to administer the KMS system
   * [AWS KMS](https://aws.amazon.com/kms/) - this is how we store the private key for users' Ethereum accounts
   * [Wyre Account ID](https://dash.sendwyre.com/sign-in) - if you want to onboard using Wyre, make an account!
