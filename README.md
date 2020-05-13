@@ -50,8 +50,8 @@ node-red  --userDir <cloned repo root folder path>
 
 Once running, go to: http://localhost:1880
 
-## Step 3: Configure and Cusomize
-See the tutorial videos at the end of each section!
+## Step 3: Configure and Cusomize 
+See the Config tutorial videos below!
 
 **Update keyes in “Global Config” Configuration Nodes**
 
@@ -62,19 +62,21 @@ See the tutorial videos at the end of each section!
   * [AWS KMS](https://aws.amazon.com/kms/) - this is how we store the private key for users' Ethereum accounts
   * [Wyre Account ID](https://dash.sendwyre.com/sign-in) - if you want to onboard using Wyre, make an account!
 
-**Tutorial Videos**
+**Config Tutorial Videos**
 
-[Collab19 Template Overview](https://www.youtube.com/watch?v=1MjoDXFa2mU)(2.5 min)
+[Collab19 Template Overview](https://www.youtube.com/watch?v=1MjoDXFa2mU) (2.5 min)
 
-[Airtable Config tutorial](https://www.youtube.com/watch?v=tCC9z3-ahxs)(1 min)
+[Airtable Config tutorial](https://www.youtube.com/watch?v=tCC9z3-ahxs) (1 min)
 
-[Telegram Config tutorial](https://www.youtube.com/watch?v=WEJpuqTbQRU)(30 s)
+[Telegram Config tutorial](https://www.youtube.com/watch?v=WEJpuqTbQRU) (30 s)
 
-[DAO Config tutorial](https://www.youtube.com/watch?v=bq8t62gyq2g)(3 min)
+[DAO Config tutorial](https://www.youtube.com/watch?v=bq8t62gyq2g) (3 min)
 
-[AWS Config Tutorial](https://www.youtube.com/watch?v=jNxuRF5Yc3g)(3 min)
+[AWS Config Tutorial](https://www.youtube.com/watch?v=jNxuRF5Yc3g) (3 min)
 
-[Changing Copy in Node-Red](https://www.youtube.com/watch?v=FdgfPJDd0mE)(1 min)
+[Changing Copy in Node-Red](https://www.youtube.com/watch?v=FdgfPJDd0mE) (1 min)
+
+Once complete, you will have a functioning DAObot, exactly the same as the Collab19 template. You are free to change and update new flows to this repo or to other repos as a way for more people to access different types of DAOs and DAO templates in Node-Red.
   
 ## Step 4: Stopping and Starting Node-Red
 To stop node-red press ctr+c
