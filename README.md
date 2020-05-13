@@ -12,7 +12,7 @@ Web3 components include [Aragon OS](https://aragon.org) for the decentralized or
 
 1. Make sure you are running a [supported version](https://nodered.org/docs/faq/node-versions) of node.js.
 
-2. This project is built to run an Aragon DAO in telegram. **Spin one up using [this link]((https://mainnet.aragon.org/))**. Use the "Company Template" to avoid unknown compatibility issues.
+2. This project is built to run an Aragon DAO in telegram. **Spin one up using [this link](https://mainnet.aragon.org/)**. Use the "Company Template" to avoid unknown compatibility issues.
 
 3. You will need an [Airtable](https://airtable.com/) account to manage the DAO userbase, and you will need to create a bot in [Telegram](https://core.telegram.org/bots).
 
