@@ -8,7 +8,7 @@ The Collab19 DAO template uses [Node-Red](https://nodered.org/), an open source 
 
 Web3 components include [Aragon OS](https://aragon.org) for the decentralized organization and the Abridged SDK for the Ethereum account and transactions. See the docs [here](https://abridged.gitbook.io/docs/) and find an interface for the SDK [here](https://preview.abridged.io/)
 
-## Pre-requisites
+## Pre-requisites (30 mins)
 
 1. Make sure you are running a [supported version](https://nodered.org/docs/faq/node-versions) of node.js.
 
@@ -18,7 +18,7 @@ Web3 components include [Aragon OS](https://aragon.org) for the decentralized or
 
 4. An [AWS account](https://aws.amazon.com/console/) is necessary to encrypt user private keys.
 
-## Step 1: Download Node-Red (10 mins)
+## Step 1: Download Node-Red (5 mins)
 
 We recommend you run an instance locally first.
 
@@ -34,7 +34,7 @@ We recommend you run an instance locally first.
 
 Installing with AWS: <https://www.youtube.com/watch?v=ZcubOa9xESA>
 
-## Step 2: Setup NodeRed Environment (10 mins)
+## Step 2: Setup NodeRed Environment (15 mins)
 
 Watch this 7 min video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
 
