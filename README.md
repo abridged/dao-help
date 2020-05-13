@@ -32,10 +32,9 @@ We recommend you run an instance locally first.
 
 Installing with AWS: <https://www.youtube.com/watch?v=ZcubOa9xESA>
 
-## Step 2: Setup Collab19 Template (10 mins)
-Download Dependencies, Configure Global Parameters and Upload the Collab19 Template.
+## Step 2: Setup NodeRed Environment (10 mins)
 
-Watch this short video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
+Watch this 7 min video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
 
 2.2 ``` ~/.node-red```
 ![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Open%20Node%20Red.png)
@@ -43,8 +42,7 @@ Watch this short video for reference: https://www.youtube.com/watch?v=5vtwdUs7sP
 2.3 Open the Package.json
 ![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Edit%20Package.png)
 
-2.4 Copy and Paste Dependencies (Before and After)
-![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20Before.png)![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20After.png)
+2.4 Copy and Paste Dependencies 
 
 Package.json dependencies to upload:
 
@@ -66,12 +64,16 @@ Package.json dependencies to upload:
   }
   ```
 
+(Before and After)
+![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20Before.png)![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20After.png)
+
 2.5 ```NPM Install```
 ![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Install%20Dependencies.png)
 
-<B>
-Update functtionGlobalContext section in settings.js as 
-</B>
+
+2.6 Update functionGlobalContext section in settings.js
+
+
 
 ```
   functionGlobalContext: {
