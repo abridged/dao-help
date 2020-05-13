@@ -43,7 +43,7 @@ npm install
 
 Start node red using command below
 ```
-node-red  --userDir <Cloned repo root folder path>
+node-red  --userDir <cloned repo root folder path>
 ```
 
 ## Step 3: Configure and Cusomize
