@@ -63,6 +63,9 @@ See the tutorial videos at the end of each section!
   * [Wyre Account ID](https://dash.sendwyre.com/sign-in) - if you want to onboard using Wyre, make an account!
 
 **Tutorial Videos**
+
+[2.5 min Collab19 Template Overview](https://www.youtube.com/watch?v=1MjoDXFa2mU)
+
 [1 min Airtable Config tutorial](https://www.youtube.com/watch?v=tCC9z3-ahxs)
 
 [30 s Telegram Config tutorial](https://www.youtube.com/watch?v=WEJpuqTbQRU)
@@ -70,11 +73,13 @@ See the tutorial videos at the end of each section!
 [3 min DAO Config tutorial](https://www.youtube.com/watch?v=bq8t62gyq2g)
 
 [3 min AWS Config Tutorial](https://www.youtube.com/watch?v=jNxuRF5Yc3g)
+
+[Changing Copy in Node-Red](https://www.youtube.com/watch?v=FdgfPJDd0mE)
   
-## Step 4: We recomend to restart node-red. 
+## Step 4: Stopping and Starting Node-Red
 To stop node-red press ctr+c
 
-Start node-red again 
+To start node-red again 
 ```
 node-red  --userDir <cloned repo root folder path>
 ```
