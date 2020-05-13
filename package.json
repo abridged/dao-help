@@ -17,7 +17,7 @@
     "node-red-node-twitter": "~1.1.6",
     "telegraf": "^3.37.0",
     "ws": "^7.2.3"
-},
+  },
   "main": "settings.js",
   "directories": {
     "lib": "lib"

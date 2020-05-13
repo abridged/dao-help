@@ -65,7 +65,7 @@ module.exports = {
     //debugUseColors: true,
 
     // The file containing the flows. If not set, it defaults to flows_<hostname>.json
-    //flowFile: 'flows.json',
+    flowFile: 'flows.json',
 
     // To enabled pretty-printing of the flow within the flow file, set the following
     //  property to true:
@@ -214,16 +214,16 @@ module.exports = {
     // can be accessed in a function block as:
     //    global.get("os")
     functionGlobalContext: {
-    abridged: require("abridged"),
-    ethsdk: require("eth-sdk"),
-    fetch: require("node-fetch"),
-    ws: require("ws"),
-    ethers: require("ethers"),
-    telegraf: require("telegraf"),
-    telegram: require("telegraf/telegram"),
-    aws_client_node: require("@aws-crypto/client-node"),
-    AWS : require('aws-sdk'),
-  },
+        abridged: require("abridged"),
+        ethsdk: require("eth-sdk"),
+        fetch: require("node-fetch"),
+        ws: require("ws"),
+        ethers: require("ethers"),
+        telegraf: require("telegraf"),
+        telegram: require("telegraf/telegram"),
+        aws_client_node: require("@aws-crypto/client-node"),
+        AWS: require('aws-sdk'),
+    },
     // `global.keys()` returns a list of all properties set in global context.
     // This allows them to be displayed in the Context Sidebar within the editor.
     // In some circumstances it is not desirable to expose them to the editor. The
