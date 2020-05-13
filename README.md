@@ -64,8 +64,10 @@ Package.json dependencies to upload:
   }
   ```
 
-(Before and After)
-![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20Before.png)![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20After.png)
+Before
+![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20Before.png)
+After
+![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20After.png)
 
 2.5 ```NPM Install```
 ![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Install%20Dependencies.png)
