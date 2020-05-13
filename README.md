@@ -37,14 +37,14 @@ Installing with AWS: <https://www.youtube.com/watch?v=ZcubOa9xESA>
 ## Step 2: Download or Clone repo (2 mins)
 ```
 git clone git@github.com:abridged/dao-help.git
-```
-cd <repo folder>
-
-```
+cd <cloned repo root folder path>
 npm install
 ```
-Run below command
+
+Start node red using command below
+```
 node-red  --userDir <Cloned repo root folder path>
+```
 
 ## Step 3: Configure and Cusomize
 Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw86HGoM
@@ -59,8 +59,9 @@ Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw8
   
 ## Step 4: We recomend to restart node-red. 
 To stop node-red press ctr+c
+
 Start node-red again 
 ```
-node-red  --userDir <Cloned repo root folder path>
+node-red  --userDir <cloned repo root folder path>
 ```
 
