@@ -34,79 +34,17 @@ We recommend you run an instance locally first.
 
 Installing with AWS: <https://www.youtube.com/watch?v=ZcubOa9xESA>
 
-## Step 2: Setup NodeRed Environment (15 mins)
-
-Watch this 7 min video for reference: https://www.youtube.com/watch?v=5vtwdUs7sPI
-
-2.2 ```cd ~/.node-red```
-![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Open%20Node%20Red.png)
-
-2.3 Open the Package.json
-![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Edit%20Package.png)
-
-2.4 Copy and Paste Dependencies 
-
-Package.json dependencies to upload:
-
-  ```
-  "dependencies": {
-      "@aws-crypto/client-node": "^1.0.4",
-      "abridged": "^2.0.0-beta.2",
-      "aws-sdk": "^2.659.0",
-      "eth-sdk": "^0.2.8",
-      "ethers": "^4.0.46",
-      "node-fetch": "^2.6.0",
-      "node-red-contrib-chatbot": "~0.18.15",
-      "node-red-contrib-loop-processing": "^0.4.0",
-      "node-red-contrib-simple-message-queue": "^0.2.5",
-      "node-red-contrib-viseo-airtable": "github:alokt/node-red-contrib-airtable#master",
-      "node-red-node-twitter": "~1.1.6",
-      "telegraf": "^3.37.0",
-      "ws": "^7.2.3"
-  }
-  ```
-
-Before
-![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20Before.png)
-After
-![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Package%20After.png)
-
-2.5 ```NPM Install```
-![](https://raw.githubusercontent.com/abridged/dao-help/master/images/Install%20Dependencies.png)
-
-
-2.6 Update functionGlobalContext section in settings.js
+## Step 2: Download or Clone repo (2 mins)
+```
+git clone git@github.com:abridged/dao-help.git
+```
+cd <repo folder>
 
 ```
-  functionGlobalContext: {
-    abridged: require("abridged"),
-    ethsdk: require("eth-sdk"),
-    fetch: require("node-fetch"),
-    ws: require("ws"),
-    ethers: require("ethers"),
-    telegraf: require("telegraf"),
-    telegram: require("telegraf/telegram"),
-    aws_client_node: require("@aws-crypto/client-node"),
-    AWS : require('aws-sdk'),
-  }
+npm install
 ```
-2.7 Input ```node-red``` to run Node-Red with all relevant settings and dependencies.
-
-You can then access the Node-RED editor by pointing your browser at http://localhost:1880!
-
-2.8 Import flows
-
-Copy the code in the collab-19.json file in this repo.
-
-Go to the hamburger menu in the top right.
-
-Select import, paste the data, and click done.
-
-Deploy.
-
-![](https://raw.githubusercontent.com/abridged/dao-help/master/images/UploadFlow.gif)
-
-For further assistance, see this guide: https://nodered.org/docs/user-guide/editor/workspace/import-export
+Run below command
+node-red  --userDir <Cloned repo root folder path>
 
 ## Step 3: Configure and Cusomize
 Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw86HGoM
@@ -118,5 +56,11 @@ Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw8
   * [AWS KMS](https://aws.amazon.com/kms/) - this is how we store the private key for users' Ethereum accounts
   * [AWS IAM](https://aws.amazon.com/iam/) - you also need this
   * [Wyre Account ID](https://dash.sendwyre.com/sign-in) - if you want to onboard using Wyre, make an account!
-
+  
+## Step 4: We recomend to restart node-red. 
+To stop node-red press ctr+c
+Start node-red again 
+```
+node-red  --userDir <Cloned repo root folder path>
+```
 
