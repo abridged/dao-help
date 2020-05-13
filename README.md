@@ -60,6 +60,7 @@ Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw8
   * [AWS KMS](https://aws.amazon.com/kms/) - this is how we store the private key for users' Ethereum accounts
   * [AWS IAM](https://aws.amazon.com/iam/) - you also need this
   * [Wyre Account ID](https://dash.sendwyre.com/sign-in) - if you want to onboard using Wyre, make an account!
+  * [DAO Configuration]( - 
   
 ## Step 4: We recomend to restart node-red. 
 To stop node-red press ctr+c
