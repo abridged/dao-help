@@ -48,6 +48,8 @@ Start node red using command below
 node-red  --userDir <cloned repo root folder path>
 ```
 
+Once running, go to: http://localhost:1880
+
 ## Step 3: Configure and Cusomize
 Node-Red Template Configuration Overview: https://www.youtube.com/watch?v=jNRvw86HGoM
 
