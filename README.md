@@ -64,8 +64,11 @@ See the tutorial videos at the end of each section!
 
 **Tutorial Videos**
 [1 min Airtable Config tutorial](https://www.youtube.com/watch?v=tCC9z3-ahxs)
+
 [30 s Telegram Config tutorial](https://www.youtube.com/watch?v=WEJpuqTbQRU)
+
 [3 min DAO Config tutorial](https://www.youtube.com/watch?v=bq8t62gyq2g)
+
 [3 min AWS Config Tutorial](https://www.youtube.com/watch?v=jNxuRF5Yc3g)
   
 ## Step 4: We recomend to restart node-red. 
