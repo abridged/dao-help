@@ -104,6 +104,8 @@ Select import, paste the data, and click done.
 
 Deploy.
 
+![](https://raw.githubusercontent.com/abridged/dao-help/master/images/UploadFlow.gif)
+
 For further assistance, see this guide: https://nodered.org/docs/user-guide/editor/workspace/import-export
 
 ## Step 3: Configure and Cusomize
