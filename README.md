@@ -1,6 +1,6 @@
 # dao-help
 
-Collab19: NodeRed based DAO Ops bot system.
+Collab19: NodeRed based DAO Ops bot system. Estimated setup 1.5 hours.
 
 Spin up your own Aragon DAO system inside of telegram using Abridged account contracts and an Aragon DAO framework! See Collab19 here as an example of what to anticipate: <https://t.me/collab19_bot>
 
@@ -53,7 +53,8 @@ Once running, go to: http://localhost:1880
 ## Step 3: Configure and Cusomize 
 See the Config tutorial videos below!
 
-**Update keyes in “Global Config” Configuration Nodes**
+**API Key Explanations and Links**
+Read more about the different API keys needed here.
 
   * [Airtable API and App ID](https://airtable.com/invite/l?inviteId=invfw1mDN9Gm7qmO4&inviteToken=e2b07eee746127408d6dc64f6158dbdd78d3e195978d2a8d14779603222b5c42)- this is your database and user management system. 
   * [Telegram Bot API](https://core.telegram.org/bots) - creating your own telegram bot is extremely easy, just find @BotFather and press start. 
@@ -62,7 +63,8 @@ See the Config tutorial videos below!
   * [AWS KMS](https://aws.amazon.com/kms/) - this is how we store the private key for users' Ethereum accounts
   * [Wyre Account ID](https://dash.sendwyre.com/sign-in) - if you want to onboard using Wyre, make an account!
 
-**Config Tutorial Videos**
+**API Key Config Tutorial Videos**
+Watch the following videos to most quickly get you up to speed!
 
 [Collab19 Template Overview](https://www.youtube.com/watch?v=1MjoDXFa2mU) (2.5 min)
 
