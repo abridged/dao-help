@@ -50,7 +50,7 @@ node-red  --userDir <cloned repo root folder path>
 
 Once running, go to: http://localhost:1880
 
-## Step 3: Configure and Cusomize 
+## Step 3: Configure and Cusomize (30 min - 1 hr)
 See the Config tutorial videos below!
 
 **API Key Explanations and Links**
