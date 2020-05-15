@@ -12,9 +12,9 @@ Web3 components include [Aragon OS](https://aragon.org) for the decentralized or
 
 ## What am I doing here again?
 
-[Orientation Video](https://www.youtube.com/watch?v=Iz30C47j4tQ)
+You are creating an instance of [this bot](https://t.me/collab19_bot). 
 
-See [this bot](https://t.me/collab19_bot). 
+[Orientation Video](https://www.youtube.com/watch?v=Iz30C47j4tQ)
 
 Technical [support group](https://t.me/joinchat/Hgw0mRcKNRFH3FG5Zjr2SA).
 
