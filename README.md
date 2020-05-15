@@ -1,6 +1,6 @@
 # dao-help: estimated setup 1.5 hours.
 
-Collab19: NodeRed based DAO Ops bot system. 
+## Intro to Collab19: NodeRed based DAO Ops bot system. 
 
 **For an understanding of what you're creating, see [this bot](https://t.me/collab19_bot). Technical [support group](https://t.me/joinchat/Hgw0mRcKNRFH3FG5Zjr2SA).**
 
