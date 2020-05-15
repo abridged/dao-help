@@ -2,7 +2,7 @@
 
 Collab19: NodeRed based DAO Ops bot system. 
 
-**For an understanding of what you're creating, see [this bot](https://t.me/collab19_bot).**
+**For an understanding of what you're creating, see [this bot](https://t.me/collab19_bot). Technical [support group](https://t.me/joinchat/Hgw0mRcKNRFH3FG5Zjr2SA).**
 
 Spin up your own Aragon DAO system inside of telegram using Abridged account contracts and an Aragon DAO framework! See Collab19 here as an example of what to anticipate: <https://t.me/collab19_bot>
 
