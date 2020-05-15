@@ -1,14 +1,21 @@
 # dao-help: estimated setup 1.5 hours.
 
-## Intro to Collab19: NodeRed based DAO Ops bot system. [Orientation Video](https://www.youtube.com/watch?v=Iz30C47j4tQ)
-
-**For an understanding of what you're creating, see [this bot](https://t.me/collab19_bot). Technical [support group](https://t.me/joinchat/Hgw0mRcKNRFH3FG5Zjr2SA).**
+## Intro to Collab19: NodeRed based DAO Ops bot system
 
 Spin up your own Aragon DAO system inside of telegram using Abridged account contracts and an Aragon DAO framework! See Collab19 here as an example of what to anticipate: <https://t.me/collab19_bot>
 
 The Collab19 DAO template uses [Node-Red](https://nodered.org/), an open source visual development environment. 
 
 Web3 components include [Aragon OS](https://aragon.org) for the decentralized organization and the Abridged SDK for the Ethereum account and transactions. See the docs [here](https://abridged.gitbook.io/docs/) and find an interface for the SDK [here](https://preview.abridged.io/)
+
+
+
+**What am I doing here again?**
+[Orientation Video](https://www.youtube.com/watch?v=Iz30C47j4tQ)
+
+See [this bot](https://t.me/collab19_bot). 
+
+Technical [support group](https://t.me/joinchat/Hgw0mRcKNRFH3FG5Zjr2SA).
 
 ## Pre-requisites (30 mins)
 
