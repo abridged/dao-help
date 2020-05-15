@@ -1,6 +1,8 @@
 # dao-help: estimated setup 1.5 hours.
 
-Collab19: NodeRed based DAO Ops bot system. For an understanding of what you're creating, see [this bot](https://t.me/collab19_bot).
+Collab19: NodeRed based DAO Ops bot system. 
+
+**For an understanding of what you're creating, see [this bot](https://t.me/collab19_bot).**
 
 Spin up your own Aragon DAO system inside of telegram using Abridged account contracts and an Aragon DAO framework! See Collab19 here as an example of what to anticipate: <https://t.me/collab19_bot>
 
